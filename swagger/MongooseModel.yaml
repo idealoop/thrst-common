@@ -1,0 +1,11 @@
+type: object
+description: Common properties for mongoose models
+properties:
+  _id:
+    type: string
+  createdAt:
+    type: string
+    format: date-time
+  updatedAt:
+    type: string
+    format: date-time
